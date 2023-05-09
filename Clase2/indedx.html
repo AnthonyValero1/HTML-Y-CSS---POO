@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+    <link rel="shortcut icon" href="./imagenes/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+        <h1 style="color:darkgreen">Listas</h1>
+        <ol>
+            <li>Inicio</li>
+            <li>Quienes somos</li>
+            <li>Servicios</li>
+            <li>Contacto</li>
+            <li>
+                <a href="#formulario">Formulario</a>
+            </li>
+        </ol>    
+        <ul>
+            <li>Harina</li>
+            <li>Sal</li>
+            <li>Huevo</li>
+        </ul>
+
+        <hr>
+
+        <h1 style="color:darkgreen">Tablas</h1>
+        <table border="1">
+            <tr>
+                <th>Producto</th>
+                <th>Color</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>negra</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Pantalon</td>
+                <td>Azul</td>
+                <td>$10</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h1 style="color:darkgreen">Formularios</h1>
+
+        <form id="formulario">
+            <label for="nombre">
+                Nombre
+                <input type="text" id="nombre" required>
+            </label>
+            <label for="email">
+                Email
+                <input type="email" id="email" required>
+            </label>
+            <label for="mensaje">
+                Mensaje
+                <textarea name="" id="mensaje" cols="10" rows="5" required></textarea>
+            </label>
+            
+            <br>
+            <br>
+
+            <label for="si">
+                <input type="radio" name="siono" id="si"> Si
+            </label>
+            <label for="no">
+                <input type="radio" name="siono" id="no"> No
+            </label>
+            <label for="nose">
+                <input type="radio" name="siono" id="nose"> No Se
+            </label>
+
+            <br>
+            <br>
+
+            <label for="sicheck">
+                <input type="checkbox" name="sionocheck" id="sicheck"> Si
+            </label>
+            <label for="nocheck">
+                <input type="checkbox" name="sionocheck" id="nocheck"> No
+            </label>
+            <label for="nosecheck">
+                <input type="checkbox" name="sionocheck" id="nosecheck"> No Se
+            </label>
+
+            <br>
+            <br>
+
+            <select name="" id="">
+                <option disabled selected>Seleccion un Pais</option>
+                <option>Argentina</option>
+                <option>Uruguay</option>
+                <option>Chile</option>
+            </select>
+
+            <br>
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+        <hr>
+
+        <h1 style="color:darkgreen">Enlaces</h1>
+        <a href="https://www.youtube.com/watch?v=XExwoQBFMS4" target="_blank">
+            Musica
+        </a>
+        <br>
+        <a href="./contacto.html" target="_blank">
+            Contacto
+        </a>
+
+        <hr>
+
+        <h1 style="color:darkgreen">Imagenes</h1>
+        <img src="./imagenes/discord.jpg" alt="Logo de Discord" title= "Logo de Discord" width="100px">
+
+        <hr>
+
+        <h1 style="color:darkgreen">Videos</h1>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/ey6uojfPb8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>

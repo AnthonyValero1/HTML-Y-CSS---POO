@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+*::selection{
+    background-color: #FF00D7;
+    color: #00FFF1;
+}
+
+header{
+    background-color: #00FFF1;
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navbar{
+    display:flex ;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    grid-gap: 10px;
+}
+
+.menu__item a{
+    color: #FF00D7;
+    text-decoration: none;
+    background-color: white;
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.menu__item a:hover{
+    background: #00FFF1 ;
+    color: #FF00D7;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.imagenPrincipal{
+    background-image: url("../img/paisaje.jpg");
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 330px;
+}
+
+.imagenPrincipal h2{
+    color: #ff00d985;
+    background-color: #00fff273;
+    padding-inline: 15px;
+}
+
+.imagenPrincipal h2::selection{
+    background: #FF00D7;
+    color: #00FFF1;
+}
+
+.imagenPrincipal p::selection{
+    background: #00FFF1;
+    color: #FF00D7;
+}
+
+.imagenPrincipal p{
+    text-align: center justify;
+}
+
+.tarjetitas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+}
+
+.tarjetita{
+    background-color: #00FFF1;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.informacion{
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen{
+    max-width: 100%;
+}
+
+.tarjetita__titulo{
+    color: #FF00D7;
+}
+
+.tarjetita__texto{
+    text-align: justify;
+}
+
+.tarjetita__boton{
+    text-decoration: none;
+    color: black
+}
+
+.pie{
+    background-color: #00FFF1;
+    color: #FF00D7;
+    text-align: center;
+}

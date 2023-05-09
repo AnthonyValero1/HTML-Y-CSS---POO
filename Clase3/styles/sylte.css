@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    list-style: none;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu li a{
+    color: red;
+    font-family: 'Hubballi', cursive;
+}
+
+.ingredientes{
+    list-style-position: inside;
+}
+
+.caja{
+    width: 450px;
+    height: 337px;
+    background-color: rgba(0, 247, 255, 0.301);
+    margin: 20px 40px 60px 60px;
+    padding: 20px 20px 20px 20px;
+
+    background-image: url(./../img/paisaje.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    border-radius: 25px;
+}
+
+.caja p{
+    text-align: justify;
+    line-height: 20px;
+}

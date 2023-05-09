@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "logo quienSoy servicios"
+        "logo productos contacto";
+}
+
+.logo{
+    grid-area: logo;
+    background-color: rgb(44, 249, 153);
+}
+
+.quienSoy{
+    grid-area: quienSoy;
+    background-color: cadetblue;
+}
+
+.servicios{
+    grid-area: servicios;
+    background-color: blueviolet;
+}
+
+.productos{
+    grid-area: productos;
+    background-color: chocolate;
+}
+
+.contacto{
+    grid-area: contacto;
+    background-color: deeppink;
+}
+ 
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
